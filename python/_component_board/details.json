@@ -1,0 +1,4 @@
+{
+    "prefix": "_viam_comp_board",
+    "description": "Initializes a Board object from a given robot instance."
+}

@@ -1,0 +1,4 @@
+{
+    "prefix": "_viam_comp_base",
+    "description": "Initializes a Base object from a given robot instance."
+}

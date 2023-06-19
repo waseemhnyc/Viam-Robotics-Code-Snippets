@@ -1,0 +1,4 @@
+{
+    "prefix": "_viam_comp_motor",
+    "description": "Initializes a Motor object from a given robot instance."
+}

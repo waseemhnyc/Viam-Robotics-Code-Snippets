@@ -1,7 +1,7 @@
 {
   "name": "viam-code-snippets",
   "displayName": "Viam Code Snippets",
-  "description": "",
+  "description": "This extension contains code snippets for Viam Robotics.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.79.0"

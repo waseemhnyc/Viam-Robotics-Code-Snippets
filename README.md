@@ -1,65 +1,50 @@
-# viam-code-snippets README
+# Viam Code Snippets
 
-This is the README for your extension "viam-code-snippets". After writing up a brief description, we recommend including the following sections.
+## Overview
+
+Viam Code Snippets is a VS Code extension that offers a collection of code snippets for Viam Robotics. The extension facilitates rapid and easy coding, by providing predefined code snippets for common coding tasks related to Viam Robotics, primarily focused on Python.
+
+## Version
+
+The current version of the Viam Code Snippets extension is 0.0.1.
+
+## Compatibility
+
+This extension requires Visual Studio Code version 1.79.0 or above.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+The extension contributes to the Python language service by providing snippets defined in ./snippets/snippets.code-snippets. When working in a Python file, you can quickly insert Viam Robotics related code snippets by typing the prefix of the snippet and selecting the snippet from the IntelliSense suggestions.
 
-For example if there is an image subfolder under your extension project workspace:
+## Categories
 
-\!\[feature X\]\(images/feature-x.png\)
+This extension falls under the "Snippets" category.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Installation
 
-## Requirements
+To install this extension, follow the standard procedure for installing Visual Studio Code extensions:
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+1. Open Visual Studio Code.
+2. Open the Extensions pane.
+3. Search for "Viam Code Snippets".
+4. Click Install.
 
-## Extension Settings
+## Usage
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+To use a snippet, open a Python file and start typing the prefix of the snippet you want to use. The snippet should appear in the IntelliSense suggestions. You can then insert it by clicking on it or pressing the Tab or Enter key.
 
-For example:
+## Contributing
 
-This extension contributes the following settings:
+Feel free to submit pull requests if you want to add more snippets or improve the existing ones.
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+## License
 
-## Known Issues
+The project is licensed under the MIT License. See the LICENSE file for details.
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+## Contact
 
-## Release Notes
+If you have any questions or issues, please open an issue on the GitHub repository.
 
-Users appreciate release notes as you update your extension.
+## Conclusion
 
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+We hope that the Viam Code Snippets extension can accelerate your development process when working with Viam Robotics. Happy coding!

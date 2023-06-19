@@ -1,0 +1,4 @@
+{
+    "prefix": "_viam_main_template",
+    "description": "Establish a connection to a robot with a main async event loop."
+}

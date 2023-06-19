@@ -1,0 +1,4 @@
+{
+    "prefix": "_viam_comp_gripper",
+    "description": "Initializes a Gripper object from a given robot instance."
+}

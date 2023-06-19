@@ -1,0 +1,4 @@
+{
+    "prefix": "_viam_comp_encoder",
+    "description": "Initializes an Encoder object from a given robot instance."
+}

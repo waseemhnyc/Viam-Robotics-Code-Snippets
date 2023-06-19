@@ -1,0 +1,4 @@
+{
+    "prefix": "_viam_comp_arm",
+    "description": "Initializes an Arm object from a given robot instance."
+}

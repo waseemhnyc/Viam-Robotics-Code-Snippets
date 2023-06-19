@@ -1,0 +1,4 @@
+{
+    "prefix": "_viam_comp_movement_sensor",
+    "description": "Initializes a Movement Sensor object from a given robot instance."
+}

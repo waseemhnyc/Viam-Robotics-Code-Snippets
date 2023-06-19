@@ -1,0 +1,4 @@
+{
+    "prefix": "_viam_connect",
+    "description": "Establish a connection to a robot with an address or channel."
+}

@@ -1,0 +1,4 @@
+{
+    "prefix": "_viam_comp_controller",
+    "description": "Initializes a Controller object from a given robot instance and handles its controls and events."
+}
