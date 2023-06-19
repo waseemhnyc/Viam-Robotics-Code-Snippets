@@ -1,7 +1,12 @@
 {
-  "name": "viam-code-snippets",
-  "displayName": "Viam Code Snippets",
+  "name": "viam-robotics-vscode-code-snippets",
+  "displayName": "Viam Robotics Code Snippets",
   "description": "This extension contains code snippets for Viam Robotics.",
+  "publisher": "waseemhnyc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/waseemhnyc/Viam-Robotics-VSCode-Code-Snippets"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.79.0"

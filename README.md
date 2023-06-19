@@ -1,4 +1,4 @@
-# Viam Code Snippets
+# Viam Robotics Code Snippets
 
 ## Overview
 
