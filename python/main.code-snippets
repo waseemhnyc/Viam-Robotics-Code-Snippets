@@ -1,26 +1,22 @@
 {
-    "_viam_comp_movement_sensor": {
-        "prefix": "_viam_comp_movement_sensor",
+    "_vcmovementsensor": {
+        "prefix": "_vcmovementsensor",
         "body": [
-            "from viam.components.movement_sensor import MovementSensor",
-            "",
             "my_movement_sensor = MovementSensor.from_robot(",
             "    robot=robot, name=\"my_movement_sensor\"",
             ")"
         ],
         "description": "Initializes a Movement Sensor object from a given robot instance."
     },
-    "_viam_comp_sensor": {
-        "prefix": "_viam_comp_sensor",
+    "_vcsensor": {
+        "prefix": "_vcsensor",
         "body": [
-            "from viam.components.sensor import Sensor",
-            "",
             "my_sensor = Sensor.from_robot(robot=robot, name='my_sensor')"
         ],
         "description": "Initializes a Sensor object from a given robot instance."
     },
-    "_viam_connect": {
-        "prefix": "_viam_connect",
+    "_vtconnect": {
+        "prefix": "_vtconnect",
         "body": [
             "from viam.robot.client import RobotClient",
             "from viam.rpc.dial import Credentials, DialOptions",
@@ -37,68 +33,26 @@
             "    )",
             "    if channel:",
             "        await RobotClient.with_channel(host, opts)",
-            "    return await RobotClient.at_address(host, opts)",
-            "",
-            "await connect('ADDRESS', 'SECRET')"
+            "    return await RobotClient.at_address(host, opts)"
         ],
         "description": "Establish a connection to a robot with an address or channel."
     },
-    "_viam_comp_board": {
-        "prefix": "_viam_comp_board",
+    "_vcboard": {
+        "prefix": "_vcboard",
         "body": [
-            "from viam.components.board import Board",
-            "",
             "my_board = Board.from_robot(robot=robot, name=\"my_board\")"
         ],
         "description": "Initializes a Board object from a given robot instance."
     },
-    "_viam_comp_servo": {
-        "prefix": "_viam_comp_servo",
+    "_vcservo": {
+        "prefix": "_vcservo",
         "body": [
-            "from viam.components.servo import Servo",
-            "",
             "my_servo = Servo.from_robot(robot=robot, name=\"my_servo\")"
         ],
         "description": "Initializes a Servo object from a given robot instance"
     },
-    "_viam_comp_gantry": {
-        "prefix": "_viam_comp_gantry",
-        "body": [
-            "from viam.components.gantry import Gantry",
-            "",
-            "my_gantry = Gantry.from_robot(robot=robot, name=\"my_gantry\")"
-        ],
-        "description": "Initializes a Gantry object from a given robot instance."
-    },
-    "_viam_comp_base": {
-        "prefix": "_viam_comp_base",
-        "body": [
-            "from viam.components.base import Base",
-            "",
-            "my_base = Base.from_robot(robot=robot, name=\"my_base\")"
-        ],
-        "description": "Initializes a Base object from a given robot instance."
-    },
-    "_viam_comp_motor": {
-        "prefix": "_viam_comp_motor",
-        "body": [
-            "from viam.components.motor import Motor",
-            "",
-            "my_motor = Motor.from_robot(robot=robot, name=\"my_motor\")"
-        ],
-        "description": "Initializes a Motor object from a given robot instance."
-    },
-    "_viam_comp_arm": {
-        "prefix": "_viam_comp_arm",
-        "body": [
-            "from viam.components.arm import Arm",
-            "",
-            "my_arm = Arm.from_robot(robot=robot, name=\"my_arm\")"
-        ],
-        "description": "Initializes an Arm object from a given robot instance."
-    },
-    "_viam_main_template": {
-        "prefix": "_viam_main_template",
+    "_vtmain": {
+        "prefix": "_vtmain",
         "body": [
             "import asyncio",
             "",
@@ -130,10 +84,38 @@
             "if __name__ == '__main__':",
             "    asyncio.run(main())"
         ],
-        "description": "Establish a connection to a robot with a main async event loop."
+        "description": "Template that establishes a connection to a robot with a main async event loop."
     },
-    "_viam_comp_controller": {
-        "prefix": "_viam_comp_controller",
+    "_vcgantry": {
+        "prefix": "_vcgantry",
+        "body": [
+            "my_gantry = Gantry.from_robot(robot=robot, name=\"my_gantry\")"
+        ],
+        "description": "Initializes a Gantry object from a given robot instance."
+    },
+    "_vcbase": {
+        "prefix": "_vcbase",
+        "body": [
+            "my_base = Base.from_robot(robot=robot, name=\"my_base\")"
+        ],
+        "description": "Initializes a Base object from a given robot instance."
+    },
+    "_vcmotor": {
+        "prefix": "_vcmotor",
+        "body": [
+            "my_motor = Motor.from_robot(robot=robot, name=\"my_motor\")"
+        ],
+        "description": "Initializes a Motor object from a given robot instance."
+    },
+    "_vcarm": {
+        "prefix": "_vcarm",
+        "body": [
+            "my_arm = Arm.from_robot(robot=robot, name=\"my_arm\")"
+        ],
+        "description": "Initializes an Arm object from a given robot instance."
+    },
+    "_vccontroller": {
+        "prefix": "_vccontroller",
         "body": [
             "from viam.components.input import Control, Controller, EventType",
             "",
@@ -147,29 +129,23 @@
         ],
         "description": "Initializes a Controller object from a given robot instance and handles its controls and events."
     },
-    "_viam_comp_gripper": {
-        "prefix": "_viam_comp_gripper",
+    "_vcgripper": {
+        "prefix": "_vcgripper",
         "body": [
-            "from viam.components.gripper import Gripper",
-            "",
             "my_gripper = Gripper.from_robot(robot=robot, name=\"my_gripper\")"
         ],
         "description": "Initializes a Gripper object from a given robot instance."
     },
-    "_viam_comp_encoder": {
-        "prefix": "_viam_comp_encoder",
+    "_vcencoder": {
+        "prefix": "_vcencoder",
         "body": [
-            "from viam.components.encoder import Encoder",
-            "",
             "my_encoder = Encoder.from_robot(robot=robot, name='my_encoder')"
         ],
         "description": "Initializes an Encoder object from a given robot instance."
     },
-    "_viam_comp_camera": {
-        "prefix": "_viam_comp_camera",
+    "_vccamera": {
+        "prefix": "_vccamera",
         "body": [
-            "from viam.components.camera import Camera",
-            "",
             "my_camera = Camera.from_robot(robot=robot, name=\"my_camera\")"
         ],
         "description": "Initializes a Camera object from a given robot instance."

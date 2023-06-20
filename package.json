@@ -19,11 +19,11 @@
     "snippets": [
       {
         "language": "python",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./python/main.code-snippets"
       },
       {
         "language": "python",
-        "path": "./python/imports.json"
+        "path": "./python/imports.code-snippets"
       }
     ]
   }

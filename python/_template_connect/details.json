@@ -1,4 +1,4 @@
 {
-    "prefix": "_vconnect",
+    "prefix": "_vtconnect",
     "description": "Establish a connection to a robot with an address or channel."
 }

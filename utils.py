@@ -39,7 +39,7 @@ def create_snippets():
                 'description': json_data.get('description')
             }
 
-    write_output_to_file(combined_data, 'snippets/snippets.code-snippets')
+    write_output_to_file(combined_data, 'python/main.code-snippets')
 
 
 if __name__ == '__main__':

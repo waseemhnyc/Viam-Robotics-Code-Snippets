@@ -7,8 +7,11 @@
 Viam Robotics Code Snippets is a VS Code extension that offers a collection of code snippets for [Viam Robotics](https://www.viam.com/). The extension facilitates rapid and easy coding, by providing predefined code snippets for common coding tasks related to Viam.
 
 🐞 Notice an issue? Reach out on [Twitter](https://twitter.com/waseemhnyc).
+
 😄 If you find this extension helpful please share with your friends and consider giving it a [positive review](https://marketplace.visualstudio.com/items?itemName=waseemhnyc.viam-robotics-vsc-code-snippets&ssr=false#overview).
+
 👨‍💻 This is an unofficial extension and managed by me, [Waseem](https://twitter.com/waseemhnyc). I'm currently exploring/building in AI, AR/VR and Robotics and sharing my journey on [Twitter](https://twitter.com/waseemhnyc).
+
 
 ![](images/viam-landing-page.png)
 
@@ -49,7 +52,7 @@ WIP - Consider submitting a PR to help a brotha out
 
 | Command | Description |
 | --- | ----------- |
-| Header | Title |
+| `_vtmain` | Template that establishes a connection to a robot with a main async event loop. |
 
 ## Contributing
 
