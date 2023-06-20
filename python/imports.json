@@ -1,0 +1,62 @@
+{
+    "_vcarm_import": {
+        "prefix": "_vcarm_import",
+        "body": "from viam.components.arm import Arm",
+        "description": "Import Arm component."
+    },
+    "_vcbase_import": {
+        "prefix": "_vcbase_import",
+        "body": "from viam.components.base import Base",
+        "description": "Import Arm component."
+    },
+    "_vcboard_import": {
+        "prefix": "_vcboard_import",
+        "body": "from viam.components.board import Board",
+        "description": "Import Board component."
+    },
+    "_vccamera_import": {
+        "prefix": "_vccamera_import",
+        "body": "from viam.components.camera import Camera",
+        "description": "Import Camera component."
+    },
+    "_vcencoder_import": {
+        "prefix": "_vcencoder_import",
+        "body": "from viam.components.encoder import Encoder",
+        "description": "Import Encoder component."
+    },
+    "_vcgantry_import": {
+        "prefix": "_vcgantry_import",
+        "body": "from viam.components.gantry import Gantry",
+        "description": "Import Gantry component."
+    },
+    "_vcgripper_import": {
+        "prefix": "_vcgripper_import",
+        "body": "from viam.components.gripper import Gripper",
+        "description": "Import Gripper component."
+    },
+    "_vccontroller_import": {
+        "prefix": "_vccontroller_import",
+        "body": "from viam.components.input import Control, Controller, EventType",
+        "description": "Import Controller components."
+    },
+    "_vcmotor_import": {
+        "prefix": "_vcmotor_import",
+        "body": "from viam.components.motor import Motor",
+        "description": "Import Motor component."
+    },
+    "_vcmovementsensor_import": {
+        "prefix": "_vcmovementsensor_import",
+        "body": "from viam.components.movement_sensor import MovementSensor",
+        "description": "Import Movement Sensor component."
+    },
+    "_vcsensor_import": {
+        "prefix": "_vcsensor_import",
+        "body": "from viam.components.sensor import Sensor",
+        "description": "Import Sensor component."
+    },
+    "_vcservo_import": {
+        "prefix": "_vcservo_import",
+        "body": "from viam.components.servo import Servo",
+        "description": "Import Servo component."
+    }
+}

@@ -1,4 +1,4 @@
 {
-    "prefix": "_viam_comp_servo",
+    "prefix": "_vcservo",
     "description": "Initializes a Servo object from a given robot instance"
 }

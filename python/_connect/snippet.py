@@ -14,5 +14,3 @@ async def connect(host, payload, channel=False):
     if channel:
         await RobotClient.with_channel(host, opts)
     return await RobotClient.at_address(host, opts)
-
-await connect('ADDRESS', 'SECRET')

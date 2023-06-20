@@ -1,4 +1,4 @@
 {
-    "prefix": "_viam_comp_camera",
+    "prefix": "_vccamera",
     "description": "Initializes a Camera object from a given robot instance."
 }
