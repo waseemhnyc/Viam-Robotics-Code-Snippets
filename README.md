@@ -4,13 +4,17 @@
 
 ## Overview
 
-Viam Code Snippets is a VS Code extension that offers a collection of code snippets for Viam Robotics. The extension facilitates rapid and easy coding, by providing predefined code snippets for common coding tasks related to Viam Robotics.
+Viam Robotics Code Snippets is a VS Code extension that offers a collection of code snippets for [Viam Robotics](https://www.viam.com/). The extension facilitates rapid and easy coding, by providing predefined code snippets for common coding tasks related to Viam.
+
+🐞 Notice an issue? Reach out on [Twitter](https://twitter.com/waseemhnyc).
+😄 If you find this extension helpful please share with your friends and consider giving it a [positive review](https://marketplace.visualstudio.com/items?itemName=waseemhnyc.viam-robotics-vsc-code-snippets&ssr=false#overview).
+👨‍💻 This is an unofficial extension and managed by me, [Waseem](https://twitter.com/waseemhnyc). I'm currently exploring/building in AI, AR/VR and Robotics and sharing my journey on [Twitter](https://twitter.com/waseemhnyc).
 
 ![](images/viam-landing-page.png)
 
 ------
 
-<h4>We hope that the Viam Code Snippets extension can accelerate your development process when working with Viam Robotics. Happy Building!</h4>
+<h4>My hope is that the Viam Robotics Code Snippets extension can accelerate your development process when working with Viam Robotics. Happy Building!</h4>
 
 ------
 
@@ -39,11 +43,17 @@ To install this extension, follow the standard procedure for installing Visual S
 
 To use a snippet, open a Python file and start typing the prefix of the snippet you want to use. The snippet should appear in the IntelliSense suggestions. You can then insert it by clicking on it or pressing the Tab or Enter key.
 
+## Snippets
+
+WIP - Consider submitting a PR to help a brotha out
+
+| Command | Description |
+| --- | ----------- |
+| Header | Title |
+
 ## Contributing
 
 Feel free to submit pull requests if you want to add more snippets or improve the existing ones.
-
-You can include additional snippets in the `/python/` directory.
 
 ## Contact
 
