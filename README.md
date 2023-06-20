@@ -4,20 +4,21 @@
 
 ## Overview
 
-Viam Robotics Code Snippets is a VS Code extension that offers a collection of code snippets for [Viam Robotics](https://www.viam.com/). The extension facilitates rapid and easy coding, by providing predefined code snippets for common coding tasks related to Viam.
+This is a VS Code extension that offers a collection of code snippets for [Viam Robotics](https://www.viam.com/). It lets you build your robot application faster by providing predefined code snippets for common coding tasks related to Viam.
 
-🐞 Notice an issue? Reach out on [Twitter](https://twitter.com/waseemhnyc).
+- 😄 If you find this extension helpful please share with your friends and consider giving it a [positive review](https://marketplace.visualstudio.com/items?itemName=waseemhnyc.viam-robotics-vsc-code-snippets&ssr=false#overview).
 
-😄 If you find this extension helpful please share with your friends and consider giving it a [positive review](https://marketplace.visualstudio.com/items?itemName=waseemhnyc.viam-robotics-vsc-code-snippets&ssr=false#overview).
+- 🐞 Notice an issue? Reach out on [Twitter](https://twitter.com/waseemhnyc).
 
-👨‍💻 This is an unofficial extension and managed by me, [Waseem](https://twitter.com/waseemhnyc). I'm currently exploring/building in AI, AR/VR and Robotics and sharing my journey on [Twitter](https://twitter.com/waseemhnyc).
+- 👨‍💻 This is an unofficial extension and managed by me, [Waseem](https://twitter.com/waseemhnyc).
 
+I'm currently exploring/building in AI, AR/VR and Robotics and sharing my journey on [Twitter](https://twitter.com/waseemhnyc).
 
-![](images/viam-landing-page.png)
+![viam-landing-page](images/viam-landing-page.png)
 
 ------
 
-<h4>My hope is that the Viam Robotics Code Snippets extension can accelerate your development process when working with Viam Robotics. Happy Building!</h4>
+<h4>My hope is that this extension can accelerate your development process when working with Viam Robotics. Happy Building!</h4>
 
 ------
 
@@ -41,6 +42,8 @@ To install this extension, follow the standard procedure for installing Visual S
 2. Open the Extensions pane.
 3. Search for "Viam Robotics Code Snippets".
 4. Click Install.
+
+![vs-code-marketplace](images/vs-code-marketplace.png)
 
 ## Usage
 
