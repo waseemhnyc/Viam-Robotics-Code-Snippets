@@ -43,7 +43,7 @@ To install this extension, follow the standard procedure for installing Visual S
 3. Search for "Viam Robotics Code Snippets".
 4. Click Install.
 
-![vs-code-marketplace](images/vs-code-marketplace.png)
+<img src="images/vs-code-marketplace.png" width="250">
 
 ## Usage
 
