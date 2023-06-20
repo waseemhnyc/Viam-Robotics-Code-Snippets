@@ -2,6 +2,8 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
+![demo](images/demo.gif)
+
 ## Overview
 
 This is a VS Code extension that offers a collection of code snippets for [Viam Robotics](https://www.viam.com/). It lets you build your robot application faster by providing predefined code snippets for common coding tasks related to Viam.
