@@ -53,7 +53,7 @@ To use a snippet, open a Python file and start typing the prefix of the snippet 
 
 ## Snippets
 
-Snippets follow a convention to make it easier to use. As you are typing, the intellisense dropdown will show you related snippets.
+These snippets follow a convention to make it easier to use. As you are typing, the intellisense dropdown will show you related snippets.
 
 <strong>Convention</strong>
 
