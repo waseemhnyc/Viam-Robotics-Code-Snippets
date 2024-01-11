@@ -1,4 +1,4 @@
 {
-    "prefix": "_vcgripper",
+    "prefix": "_vpycgripper",
     "description": "Initializes a Gripper object from a given robot instance."
 }

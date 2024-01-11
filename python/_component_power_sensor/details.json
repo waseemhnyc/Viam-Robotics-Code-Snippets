@@ -1,0 +1,4 @@
+{
+    "prefix": "_vpycpowersensor",
+    "description": "Initializes a Power Sensor object from a given robot instance."
+}

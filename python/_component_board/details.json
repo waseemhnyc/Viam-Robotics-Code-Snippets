@@ -1,4 +1,4 @@
 {
-    "prefix": "_vcboard",
+    "prefix": "_vpycboard",
     "description": "Initializes a Board object from a given robot instance."
 }

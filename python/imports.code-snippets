@@ -29,6 +29,11 @@
         "body": "from viam.components.gantry import Gantry",
         "description": "Import Gantry component."
     },
+    "_vcgeneric_import": {
+        "prefix": "_vcgeneric_import",
+        "body": "from viam.components.generic import Generic",
+        "description": "Import Generic component."
+    },
     "_vcgripper_import": {
         "prefix": "_vcgripper_import",
         "body": "from viam.components.gripper import Gripper",

@@ -1,4 +1,4 @@
 {
-    "prefix": "_vcsensor",
+    "prefix": "_vpycsensor",
     "description": "Initializes a Sensor object from a given robot instance."
 }

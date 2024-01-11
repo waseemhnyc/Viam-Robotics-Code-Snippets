@@ -1,0 +1,4 @@
+{
+    "prefix": "_vpycgeneric",
+    "description": "Initializes a Generic object from a given robot instance."
+}

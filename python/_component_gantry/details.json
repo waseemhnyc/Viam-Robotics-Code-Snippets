@@ -1,4 +1,4 @@
 {
-    "prefix": "_vcgantry",
+    "prefix": "_vpycgantry",
     "description": "Initializes a Gantry object from a given robot instance."
 }

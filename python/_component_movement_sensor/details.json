@@ -1,4 +1,4 @@
 {
-    "prefix": "_vcmovementsensor",
+    "prefix": "_vpycmovementsensor",
     "description": "Initializes a Movement Sensor object from a given robot instance."
 }

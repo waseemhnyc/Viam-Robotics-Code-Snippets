@@ -15,6 +15,13 @@
         ],
         "description": "Initializes a Sensor object from a given robot instance."
     },
+    "_vcgeneric": {
+        "prefix": "_vcgeneric",
+        "body": [
+            "my_generic = Generic.from_robot(robot=robot, name=\"my_generic_component\")"
+        ],
+        "description": "Initializes a Generic object from a given robot instance."
+    },
     "_vtconnect": {
         "prefix": "_vtconnect",
         "body": [
@@ -92,6 +99,13 @@
             "my_gantry = Gantry.from_robot(robot=robot, name=\"my_gantry\")"
         ],
         "description": "Initializes a Gantry object from a given robot instance."
+    },
+    "_vcpowersensor": {
+        "prefix": "_vcpowersensor",
+        "body": [
+            "my_power_sensor = PowerSensor.from_robot(robot=robot, name=\"my_power_sensor\")"
+        ],
+        "description": "Initializes a Power Sensor object from a given robot instance."
     },
     "_vcbase": {
         "prefix": "_vcbase",

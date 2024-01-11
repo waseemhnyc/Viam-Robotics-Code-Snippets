@@ -1,4 +1,4 @@
 {
-    "prefix": "_vcbase",
+    "prefix": "_vpycbase",
     "description": "Initializes a Base object from a given robot instance."
 }

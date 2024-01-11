@@ -1,4 +1,4 @@
 {
-    "prefix": "_vccamera",
+    "prefix": "_vpyccamera",
     "description": "Initializes a Camera object from a given robot instance."
 }
