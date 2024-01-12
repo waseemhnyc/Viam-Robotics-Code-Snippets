@@ -1,4 +1,4 @@
 {
-    "prefix": "_vpytmain",
+    "prefix": "_vtmain",
     "description": "Template that establishes a connection to a robot with a main async event loop."
 }

@@ -1,4 +1,4 @@
 {
-    "prefix": "_vpycmotor",
+    "prefix": "_vcmotor",
     "description": "Initializes a Motor object from a given robot instance."
 }

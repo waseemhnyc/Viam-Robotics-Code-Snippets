@@ -1,28 +1,32 @@
-# Viam Robotics VSC Code Snippets
+
+# Viam Robotics Code Snippets 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Golang](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 
-![demo](images/demo.gif)
+<img src="images/demo.gif" width="600">
+
 
 ## Overview
 
-This is a VS Code extension that offers a collection of code snippets for [Viam Robotics](https://www.viam.com/). It lets you build your robot application faster by providing predefined code snippets for common coding tasks related to Viam.
+This is a VS Code (and [Cursor](https://cursor.sh/)) extension that offers a collection of code snippets for [Viam Robotics](https://www.viam.com/). It lets you build your robot and smart machine applications faster by providing predefined code snippets for common coding tasks related to Viam.
 
-- 😄 If you find this extension helpful please share with your friends and consider giving it a [positive review](https://marketplace.visualstudio.com/items?itemName=waseemhnyc.viam-robotics-vsc-code-snippets&ssr=false#overview).
+- <strong>Includes Python and Golang snippets</strong>
 
-- 🐞 Notice an issue? Reach out on [Twitter](https://twitter.com/waseemhnyc).
+- 😄 If you find this extension helpful please share with your friends and consider giving it a [positive review](https://marketplace.visualstudio.com/items?itemName=waseemhnyc.viam-robotics-vsc-code-snippets&ssr=false#overview)
 
-- 👨‍💻 This is an unofficial extension and managed by me, [Waseem](https://twitter.com/waseemhnyc).
+- 🐞 Notice an issue? Reach out on [Twitter](https://twitter.com/waseemhnyc)
 
-I'm currently exploring/building in AI, AR/VR and Robotics and sharing my journey on [Twitter](https://twitter.com/waseemhnyc).
+- 👨‍💻 This is an unofficial extension and managed by me, [Waseem](https://twitter.com/waseemhnyc)
 
-![viam-landing-page](images/viam-landing-page.png)
+I'm currently exploring/building in AI, AR/VR and Robotics and sharing my journey on [Twitter](https://twitter.com/waseemhnyc)
 
-------
+<img src="images/viam-landing-page.png" width="300">
 
-<h4>My hope is that this extension can accelerate your development process when working with Viam Robotics. Happy Building!</h4>
+<h4>
+    My hope is that this extension can accelerate your development process when working with Viam Robotics. Happy Building!
+</h4>
 
-------
 
 <!-- ## Compatibility
 
@@ -40,16 +44,18 @@ This extension falls under the "Snippets" category. -->
 
 To install this extension, follow the standard procedure for installing Visual Studio Code extensions:
 
-1. Open Visual Studio Code.
-2. Open the Extensions pane.
-3. Search for "Viam Robotics Code Snippets".
-4. Click Install.
+1. Open Visual Studio Code or Cursor
+2. Open the Extensions pane
+3. Search for "Viam Robotics Code Snippets"
+4. Click Install
+5. Start coding using the conventions below
+6. Smile and have fun
 
 <img src="images/vs-code-marketplace.png" width="250">
 
 ## Usage
 
-To use a snippet, open a Python file and start typing the prefix of the snippet you want to use. The snippet should appear in the IntelliSense suggestions. You can then insert it by clicking on it or pressing the Tab or Enter key.
+To use a snippet, open a supported programming (.py or .go) file and start typing the prefix of the snippet you want to use. The snippet should appear in the IntelliSense suggestions. You can then insert it by clicking on it or pressing the Tab or Enter key.
 
 ## Snippets
 
@@ -61,6 +67,8 @@ These snippets follow a convention to make it easier to use. As you are typing, 
 - Adding a template start with `_vt` then the name of the template. Ex: `_vtmain`.
 - Adding a component start with `_vc` then the name of the component. Ex: `_vcsensor`.
 - Importing components have the same command as adding a component, but with _import at the end. Ex: `_vcsensor_import`.
+
+## Snippets
 
 <strong>Templates</strong>
 

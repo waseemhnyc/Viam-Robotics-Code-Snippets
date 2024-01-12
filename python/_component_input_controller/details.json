@@ -1,4 +1,4 @@
 {
-    "prefix": "_vpyccontroller",
+    "prefix": "_vccontroller",
     "description": "Initializes a Controller object from a given robot instance and handles its controls and events."
 }

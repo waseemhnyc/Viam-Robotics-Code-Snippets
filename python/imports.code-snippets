@@ -54,6 +54,11 @@
         "body": "from viam.components.movement_sensor import MovementSensor",
         "description": "Import Movement Sensor component."
     },
+    "_vcpowersensor_import": {
+        "prefix": "_vcpowersensor_import",
+        "body": "from viam.components.power_sensor import PowerSensor",
+        "description": "Import Power Sensor component."
+    },
     "_vcsensor_import": {
         "prefix": "_vcsensor_import",
         "body": "from viam.components.sensor import Sensor",
