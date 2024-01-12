@@ -116,6 +116,9 @@ These snippets follow a convention to make it easier to use. As you are typing, 
 
 Feel free to submit pull requests if you want to add more snippets or improve the existing ones.
 
+- You could either add a `.py` or `.go` file in a folder and into its respective directory. You must include a `details.json` and `snippet.__` file
+- Or you can create a `.code-snippets` file with a dictionary of the new snippets.
+
 ## Contact
 
 If you have any questions or issues, please open an issue on the GitHub repository. Or reach out to Waseem via Twitter or Email.
