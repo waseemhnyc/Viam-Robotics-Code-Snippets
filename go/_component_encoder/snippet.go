@@ -1,0 +1,1 @@
+myEncoder, err := encoder.FromRobot(robot, "my_encoder")

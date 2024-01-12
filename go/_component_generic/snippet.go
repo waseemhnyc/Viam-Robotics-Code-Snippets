@@ -1,0 +1,1 @@
+myGeneric, err := generic.FromRobot(robot, "my_generic_component")

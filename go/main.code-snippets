@@ -1,0 +1,212 @@
+{
+    "_vcmovementsensor": {
+        "prefix": "_vcmovementsensor",
+        "body": [
+            "myMovementSensor, err := movementsensor.FromRobot(",
+            "    robot, \"my_movement_sensor\"",
+            ")"
+        ],
+        "description": "Initializes a Movement Sensor object from a given robot instance."
+    },
+    "_vcsensor": {
+        "prefix": "_vcsensor",
+        "body": [
+            "mySensor, err := sensor.FromRobot(robot, \"my_sensor\")"
+        ],
+        "description": "Initializes a Sensor object from a given robot instance."
+    },
+    "_vcgeneric": {
+        "prefix": "_vcgeneric",
+        "body": [
+            "myGeneric, err := generic.FromRobot(robot, \"my_generic_component\")"
+        ],
+        "description": "Initializes a Generic object from a given robot instance."
+    },
+    "_vtconnect": {
+        "prefix": "_vtconnect",
+        "body": [
+            "logger := logging.NewLogger(\"client\")",
+            "robot, err := client.New(",
+            "\tcontext.Background(),",
+            "\t\"ADDRESS FROM THE VIAM APP\",",
+            "\tlogger,",
+            "\tclient.WithDialOptions(rpc.WithEntityCredentials(",
+            "\t\t// Replace \"<API-KEY-ID>\" (including brackets) with your machine's API key ID",
+            "\t\t\"<API-KEY-ID>\",",
+            "\t\trpc.Credentials{",
+            "\t\t\tType: rpc.CredentialsTypeAPIKey,",
+            "\t\t\t// Replace \"<API-KEY>\" (including brackets) with your API key",
+            "\t\t\tPayload: \"<API-KEY>\",",
+            "\t\t})),",
+            ")",
+            "if err != nil {",
+            "\tlogger.Fatal(err)",
+            "}",
+            "defer robot.Close(context.Background())"
+        ],
+        "description": "Establish a connection to a robot with an address or channel."
+    },
+    "_vcboard": {
+        "prefix": "_vcboard",
+        "body": [
+            "myBoard, err := board.FromRobot(robot, \"my_board\")"
+        ],
+        "description": "Initializes a Board object from a given robot instance."
+    },
+    "_vcservo": {
+        "prefix": "_vcservo",
+        "body": [
+            "myServo, err := servo.FromRobot(robot, \"my_servo\")"
+        ],
+        "description": "Initializes a Servo object from a given robot instance"
+    },
+    "_vtmain": {
+        "prefix": "_vtmain",
+        "body": [
+            "package main",
+            "",
+            "import (",
+            "\t\"context\"",
+            "",
+            "\t\"go.viam.com/rdk/logging\"",
+            "\t\"go.viam.com/rdk/robot/client\"",
+            "\t\"go.viam.com/utils/rpc\"",
+            ")",
+            "",
+            "func main() {",
+            "\tlogger := logging.NewLogger(\"client\")",
+            "\trobot, err := client.New(",
+            "\t\tcontext.Background(),",
+            "\t\t\"ADDRESS FROM THE VIAM APP\",",
+            "\t\tlogger,",
+            "\t\tclient.WithDialOptions(rpc.WithEntityCredentials(",
+            "\t\t\t// Replace \"<API-KEY-ID>\" (including brackets) with your machine's API key ID",
+            "\t\t\t\"<API-KEY-ID>\",",
+            "\t\t\trpc.Credentials{",
+            "\t\t\t\tType: rpc.CredentialsTypeAPIKey,",
+            "\t\t\t\t// Replace \"<API-KEY>\" (including brackets) with your API key",
+            "\t\t\t\tPayload: \"<API-KEY>\",",
+            "\t\t\t})),",
+            "\t)",
+            "\tif err != nil {",
+            "\t\tlogger.Fatal(err)",
+            "\t}",
+            "\tdefer robot.Close(context.Background())",
+            "\tlogger.Info(\"Resources:\")",
+            "\tlogger.Info(robot.ResourceNames())",
+            "}"
+        ],
+        "description": "Template that establishes a connection to a robot with a main async event loop."
+    },
+    "_vcgantry": {
+        "prefix": "_vcgantry",
+        "body": [
+            "myGantry, err := gantry.FromRobot(robot, \"my_gantry\")"
+        ],
+        "description": "Initializes a Gantry object from a given robot instance."
+    },
+    "_vcpowersensor": {
+        "prefix": "_vcpowersensor",
+        "body": [
+            "myPowerSensor, err := powersensor.FromRobot(robot, \"my_power_sensor\")"
+        ],
+        "description": "Initializes a Power Sensor object from a given robot instance."
+    },
+    "_vcbase": {
+        "prefix": "_vcbase",
+        "body": [
+            "myBase, err := base.FromRobot(robot, \"my_base\")"
+        ],
+        "description": "Initializes a Base object from a given robot instance."
+    },
+    "_vcmotor": {
+        "prefix": "_vcmotor",
+        "body": [
+            "myMotor, err := motor.FromRobot(robot, \"my_motor\")",
+            ""
+        ],
+        "description": "Initializes a Motor object from a given robot instance."
+    },
+    "_vcarm": {
+        "prefix": "_vcarm",
+        "body": [
+            "myArm, err := arm.FromRobot(robot, \"my_arm\")"
+        ],
+        "description": "Initializes an Arm object from a given robot instance."
+    },
+    "_vccontroller": {
+        "prefix": "_vccontroller",
+        "body": [
+            "// Define a function that handles the controller.",
+            "func handleController(controller input.Controller) {",
+            "",
+            "    // Define a function to handle pressing the Start Menu Button \"ButtonStart\" on your controller, logging the start time.",
+            "    printStartTime := func(ctx context.Context, event input.Event) {",
+            "        logger.Info(\"Start Menu Button was pressed at this time: %v\", event.Time)",
+            "    }",
+            "",
+            "    // Define the EventType \"ButtonPress\" to serve as the trigger for printStartTime.",
+            "    triggers := [1]input.EventType{input.ButtonPress}",
+            "",
+            "    // Get the controller's Controls.",
+            "    controls, err := controller.Controls(context.Background(), nil)",
+            "",
+            "    // If the \"ButtonStart\" Control is found, register the function printStartTime to fire when \"ButtonStart\" has the event \"ButtonPress\" occur.",
+            "    if slices.Contains(controls, Control.ButtonStart) {",
+            "        err := controller.RegisterControlCallback(context.Background(), Control: input.ButtonStart, triggers, printStartTime, nil)",
+            "    }",
+            "     else {",
+            "        logger.Fatalf(\"Oops! Couldn't find the start button control! Is your controller connected?\")",
+            "    }",
+            "}",
+            "",
+            "func main() {",
+            "    utils.ContextualMain(mainWithArgs, logging.NewLogger(\"client\"))",
+            "}",
+            "",
+            "",
+            "func mainWithArgs(ctx context.Context, args []string, logger logging.Logger) (err error) {",
+            "    // ... < INSERT CONNECTION CODE FROM MACHINE'S CODE SAMPLE TAB >",
+            "",
+            "    // Get the controller from the machine.",
+            "    myController, err := input.FromRobot(myRobotWithController, \"my_controller\")",
+            "",
+            "    // Run the handleController function.",
+            "    err := HandleController(myController)",
+            "",
+            "    // Delay closing your connection to your machine.",
+            "    err = myRobotWithController.Start(ctx)",
+            "    defer myRobotWithController.Close(ctx)",
+            "",
+            "    // Wait to exit mainWithArgs() until Context is Done.",
+            "    <-ctx.Done()",
+            "",
+            "    // ... < INSERT ANY OTHER CODE FOR MAIN FUNCTION >",
+            "",
+            "    return nil",
+            "}"
+        ],
+        "description": "Initializes a Controller object from a given robot instance and handles its controls and events."
+    },
+    "_vcgripper": {
+        "prefix": "_vcgripper",
+        "body": [
+            "myGripper, err := gripper.FromRobot(robot, \"my_gripper\")"
+        ],
+        "description": "Initializes a Gripper object from a given robot instance."
+    },
+    "_vcencoder": {
+        "prefix": "_vcencoder",
+        "body": [
+            "myEncoder, err := encoder.FromRobot(robot, \"my_encoder\")"
+        ],
+        "description": "Initializes an Encoder object from a given robot instance."
+    },
+    "_vccamera": {
+        "prefix": "_vccamera",
+        "body": [
+            "myCamera, err := camera.FromRobot(robot, \"my_camera\")"
+        ],
+        "description": "Initializes a Camera object from a given robot instance."
+    }
+}

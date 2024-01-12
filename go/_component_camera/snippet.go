@@ -1,0 +1,1 @@
+myCamera, err := camera.FromRobot(robot, "my_camera")

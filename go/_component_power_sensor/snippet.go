@@ -1,0 +1,1 @@
+myPowerSensor, err := powersensor.FromRobot(robot, "my_power_sensor")

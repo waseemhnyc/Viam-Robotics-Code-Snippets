@@ -1,9 +1,11 @@
 # Change Log
 
-All notable changes to the "viam-code-snippets" extension will be documented in this file.
+All notable changes to the "Viam Code Snippets" extension will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [0.7.0] - 2024-01-12
 
-- Initial release
+### Added
+
+- Golang Snippets 
+- Generic and Power Sensor Components

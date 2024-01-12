@@ -1,0 +1,1 @@
+myGripper, err := gripper.FromRobot(robot, "my_gripper")

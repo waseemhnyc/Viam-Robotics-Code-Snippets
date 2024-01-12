@@ -1,0 +1,1 @@
+myArm, err := arm.FromRobot(robot, "my_arm")

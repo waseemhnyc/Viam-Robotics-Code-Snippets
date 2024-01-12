@@ -1,0 +1,1 @@
+myGantry, err := gantry.FromRobot(robot, "my_gantry")

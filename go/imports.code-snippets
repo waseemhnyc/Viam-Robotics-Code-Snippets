@@ -1,0 +1,128 @@
+{
+    "_vcarm_import": {
+        "prefix": "_vcarm_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/arm\"",
+            ")"
+        ],
+        "description": "Import Arm component."
+    },
+    "_vcbase_import": {
+        "prefix": "_vcbase_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/base\"",
+            ")"
+        ],
+        "description": "Import Base component."
+    },
+    "_vcboard_import": {
+        "prefix": "_vcboard_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/board\"",
+            ")"
+        ],
+        "description": "Import Board component."
+    },
+    "_vccamera_import": {
+        "prefix": "_vccamera_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/camera\"",
+            ")"
+        ],
+        "description": "Import Camera component."
+    },
+    "_vcencoder_import": {
+        "prefix": "_vcencoder_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/encoder\"",
+            ")"
+        ],
+        "description": "Import Encoder component."
+    },
+    "_vcgantry_import": {
+        "prefix": "_vcgantry_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/gantry\"",
+            ")"
+        ],
+        "description": "Import Gantry component."
+    },
+    "_vcgeneric_import": {
+        "prefix": "_vcgeneric_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/generic\"",
+            ")"
+        ],
+        "description": "Import Generic component."
+    },
+    "_vcgripper_import": {
+        "prefix": "_vcgripper_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/gripper\"",
+            ")"
+        ],
+        "description": "Import Gripper component."
+    },
+    "_vccontroller_import": {
+        "prefix": "_vccontroller_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/input\"",
+            ")"
+        ],
+        "description": "Import Controller components."
+    },
+    "_vcmotor_import": {
+        "prefix": "_vcmotor_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/motor\"",
+            ")"
+        ],
+        "description": "Import Motor component."
+    },
+    "_vcmovementsensor_import": {
+        "prefix": "_vcmovementsensor_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/movementsensor\"",
+            ")"
+        ],
+        "description": "Import Movement Sensor component."
+    },
+    "_vcpowersensor_import": {
+        "prefix": "_vcpowersensor_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/powersensor\"",
+            ")"
+        ],
+        "description": "Import Power Sensor component."
+    },
+    "_vcsensor_import": {
+        "prefix": "_vcsensor_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/sensor\"",
+            ")"
+        ],
+        "description": "Import Sensor component."
+    },
+    "_vcservo_import": {
+        "prefix": "_vcservo_import",
+        "body": [
+            "import (",
+            "   \"go.viam.com/rdk/components/servo\"",
+            ")"
+        ],
+        "description": "Import Servo component."
+    }
+}

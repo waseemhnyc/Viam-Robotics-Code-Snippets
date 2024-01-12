@@ -1,0 +1,4 @@
+{
+    "prefix": "_vcbase",
+    "description": "Initializes a Base object from a given robot instance."
+}

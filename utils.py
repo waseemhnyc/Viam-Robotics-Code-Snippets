@@ -23,24 +23,41 @@ def write_output_to_file(output, output_file_name):
         json.dump(output, file, indent=4)
 
 
-def create_snippets():
-    combined_data = {}
+def create_snippets(_python=False, _go=False):
+    if _python:
+        combined_data = {}
 
-    for dirpath, dirnames, filenames in os.walk('./python'):
-        if 'details.json' in filenames and 'snippet.py' in filenames:
-            # prefix = dirpath.strip('./')
-            json_data = get_json_from_file(
-                os.path.join(dirpath, 'details.json'))
-            body = get_body_from_file(os.path.join(dirpath, 'snippet.py'))
+        for dirpath, dirnames, filenames in os.walk('./python'):
+            if 'details.json' in filenames and 'snippet.py' in filenames:
+                # prefix = dirpath.strip('./')
+                json_data = get_json_from_file(os.path.join(dirpath, 'details.json'))
+                body = get_body_from_file(os.path.join(dirpath, 'snippet.py'))
 
-            combined_data[json_data.get('prefix')] = {
-                'prefix': json_data.get('prefix'),
-                'body': body,
-                'description': json_data.get('description')
-            }
+                combined_data[json_data.get('prefix')] = {
+                    'prefix': json_data.get('prefix'),
+                    'body': body,
+                    'description': json_data.get('description')
+                }
 
-    write_output_to_file(combined_data, 'python/main.code-snippets')
+        write_output_to_file(combined_data, 'python/main.code-snippets')
+
+    if _go:
+        combined_data = {}
+
+        for dirpath, dirnames, filenames in os.walk('./go'):
+            if 'details.json' in filenames and 'snippet.go' in filenames:
+                # prefix = dirpath.strip('./')
+                json_data = get_json_from_file(os.path.join(dirpath, 'details.json'))
+                body = get_body_from_file(os.path.join(dirpath, 'snippet.go'))
+
+                combined_data[json_data.get('prefix')] = {
+                    'prefix': json_data.get('prefix'),
+                    'body': body,
+                    'description': json_data.get('description')
+                }
+
+        write_output_to_file(combined_data, 'go/main.code-snippets')
 
 
 if __name__ == '__main__':
-    create_snippets()
+    create_snippets(_python=True, _go=True)

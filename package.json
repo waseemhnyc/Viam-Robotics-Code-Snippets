@@ -6,7 +6,12 @@
   "publisher": "waseemhnyc",
   "repository": {
     "type": "git",
-    "url": "https://github.com/waseemhnyc/Viam-Robotics-VSC-Code-Snippets"
+    "url": "https://github.com/waseemhnyc/Viam-Robotics-Code-Snippets"
+  },
+  "author": {
+    "name": "Waseem",
+    "email": "waseemh.nyc@gmail.com",
+    "url": "https://github.com/waseemhnyc"
   },
   "version": "0.6.0",
   "engines": {
@@ -14,6 +19,13 @@
   },
   "categories": [
     "Snippets"
+  ],
+  "keywords": [
+    "robotics",
+    "viam",
+    "python",
+    "go",
+    "snippets"
   ],
   "contributes": {
     "snippets": [
@@ -24,6 +36,14 @@
       {
         "language": "python",
         "path": "./python/imports.code-snippets"
+      },
+      {
+        "language": "go",
+        "path": "./go/main.code-snippets"
+      },
+      {
+        "language": "go",
+        "path": "./go/imports.code-snippets"
       }
     ]
   }
