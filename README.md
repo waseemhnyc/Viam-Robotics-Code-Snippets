@@ -1,8 +1,20 @@
-
 # Viam Robotics Code Snippets 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Golang](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Snippets](#snippets)
+  - [Convention](#convention)
+  - [Components](#components)
+  - [Component Imports](#component-imports)
+- [Contributing](#contributing)
+- [Contact](#contact)
+- [License](#license)
 
 <img src="images/demo.gif" width="600">
 
@@ -61,23 +73,21 @@ To use a snippet, open a supported programming (.py or .go) file and start typin
 
 These snippets follow a convention to make it easier to use. As you are typing, the intellisense dropdown will show you related snippets.
 
-<strong>Convention</strong>
+### Convention
 
 - All snippets start with `_v`.
 - Adding a template start with `_vt` then the name of the template. Ex: `_vtmain`.
 - Adding a component start with `_vc` then the name of the component. Ex: `_vcsensor`.
 - Importing components have the same command as adding a component, but with _import at the end. Ex: `_vcsensor_import`.
 
-## Snippets
-
-<strong>Templates</strong>
+### Templates
 
 | Command | Description |
 | --- | ----------- |
 | `_vtconnect` | Establish a connection to a robot with an address or channel. |
 | `_vtmain` | Template that establishes a connection to a robot with a main async event loop. |
 
-<strong>Components</strong>
+### Components
 
 | Command | Description |
 | --- | ----------- |
@@ -94,7 +104,7 @@ These snippets follow a convention to make it easier to use. As you are typing, 
 | `_vcsensor` | Initializes a Sensor object. |
 | `_vcservo` | Initializes a Servo object. |
 
-<strong>Component Imports</strong>
+### Component Imports
 
 | Command | Description |
 | --- | ----------- |
