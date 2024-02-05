@@ -25,6 +25,7 @@
     "viam",
     "python",
     "go",
+    "typescript",
     "snippets"
   ],
   "contributes": {
@@ -44,6 +45,14 @@
       {
         "language": "go",
         "path": "./go/imports.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./ts/main.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./ts/imports.code-snippets"
       }
     ]
   }
