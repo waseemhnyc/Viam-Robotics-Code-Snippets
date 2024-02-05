@@ -3,6 +3,8 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Golang](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) - Beta
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -126,7 +128,7 @@ These snippets follow a convention to make it easier to use. As you are typing, 
 
 Feel free to submit pull requests if you want to add more snippets or improve the existing ones.
 
-- You could either add a `.py` or `.go` file in a folder and into its respective directory. You must include a `details.json` and `snippet.__` file
+- You could either add a `.py`, `.go` or `.ts` file in a folder and into its respective directory. You must include a `details.json` and `snippet.__` file
 - Or you can create a `.code-snippets` file with a dictionary of the new snippets.
 
 ## Contact

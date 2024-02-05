@@ -1,0 +1,1 @@
+const myGripper = new VIAM.GripperClient(robot, "my_gripper");

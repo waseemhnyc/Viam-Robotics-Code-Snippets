@@ -1,0 +1,1 @@
+const myEncoder = new VIAM.EncoderClient(robot, "my_encoder");

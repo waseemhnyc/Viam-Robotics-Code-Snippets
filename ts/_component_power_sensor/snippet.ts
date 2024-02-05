@@ -1,0 +1,1 @@
+const myPowerSensor = new VIAM.PowerSensorClient(robot, "my_power_sensor");

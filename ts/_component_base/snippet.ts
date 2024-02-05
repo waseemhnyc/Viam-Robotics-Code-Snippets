@@ -1,0 +1,1 @@
+const myBase = new VIAM.BaseClient(robot, "my_base");

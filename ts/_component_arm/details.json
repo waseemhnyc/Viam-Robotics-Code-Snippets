@@ -1,0 +1,4 @@
+{
+    "prefix": "_vcarm",
+    "description": "Initializes an Arm object from a given robot instance."
+}

@@ -1,0 +1,1 @@
+const myCamera = new VIAM.CameraClient(robot, "my_camera");

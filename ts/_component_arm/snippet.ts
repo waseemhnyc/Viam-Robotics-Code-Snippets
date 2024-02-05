@@ -1,0 +1,1 @@
+const myArm = new VIAM.ArmClient(robot, "my_arm");

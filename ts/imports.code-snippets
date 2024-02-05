@@ -1,0 +1,9 @@
+{
+    "_v_import": {
+        "prefix": "_v_import",
+        "body": [
+            "import * as VIAM from '@viamrobotics/sdk';"
+        ],
+        "description": "Import Viam."
+    }
+}

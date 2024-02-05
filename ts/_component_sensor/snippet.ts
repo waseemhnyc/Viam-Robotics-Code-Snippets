@@ -1,0 +1,1 @@
+const mySensor = new VIAM.SensorClient(robot, "my_sensor");

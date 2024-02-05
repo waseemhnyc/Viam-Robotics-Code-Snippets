@@ -1,0 +1,4 @@
+{
+    "prefix": "_vcencoder",
+    "description": "Initializes an Encoder object from a given robot instance."
+}
