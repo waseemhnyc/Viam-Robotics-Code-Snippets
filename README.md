@@ -4,6 +4,8 @@
 ![Golang](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript%20[beta]-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
+If you are using this extension or downloading it now, consider helping me out by filling out [this quick 🏃🏽‍♂️ form](https://tally.so/r/mB7ORA).
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -24,7 +26,7 @@
 
 This is a VS Code (and [Cursor](https://cursor.sh/)) extension that offers a collection of code snippets for [Viam Robotics](https://www.viam.com/). It lets you build your robot and smart machine applications faster by providing predefined code snippets for common coding tasks related to Viam.
 
-- <strong>Includes Python and Golang snippets</strong>
+- <strong>Includes Python, Golang and Typescript snippets</strong>
 
 - 😄 If you find this extension helpful please share with your friends and consider giving it a [positive review](https://marketplace.visualstudio.com/items?itemName=waseemhnyc.viam-robotics-vsc-code-snippets&ssr=false#overview)
 
