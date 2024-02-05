@@ -65,7 +65,7 @@ def create_snippets(_python=False, _go=False, _ts=False):
             if 'details.json' in filenames and 'snippet.ts' in filenames:
                 # prefix = dirpath.strip('./')
                 json_data = get_json_from_file(os.path.join(dirpath, 'details.json'))
-                body = get_body_from_file(os.path.join(dirpath, 'snippet.go'))
+                body = get_body_from_file(os.path.join(dirpath, 'snippet.ts'))
 
                 combined_data[json_data.get('prefix')] = {
                     'prefix': json_data.get('prefix'),

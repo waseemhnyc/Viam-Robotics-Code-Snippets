@@ -1,0 +1,135 @@
+{
+    "_vcmovementsensor": {
+        "prefix": "_vcmovementsensor",
+        "body": [
+            "const myMovementSensor = new VIAM.MovementSensorClient(robot, \"my_movement_sensor\");"
+        ],
+        "description": "Initializes a Movement Sensor object from a given robot instance."
+    },
+    "_vcsensor": {
+        "prefix": "_vcsensor",
+        "body": [
+            "const mySensor = new VIAM.SensorClient(robot, \"my_sensor\");"
+        ],
+        "description": "Initializes a Sensor object from a given robot instance."
+    },
+    "_vtconnect": {
+        "prefix": "_vtconnect",
+        "body": [
+            "const host = '<HOST_ADDRESS>';",
+            "",
+            "const robot = await VIAM.createRobotClient({",
+            "  host,",
+            "  credential: {",
+            "\ttype: 'api-key',",
+            "   // Replace \"<API-KEY>\" (including brackets) with your machine's api key",
+            "\tpayload: '<API-KEY>',",
+            "  }, ",
+            "   // Replace \"<API-KEY-ID>\" (including brackets) with your machine's api key id",
+            "  authEntity: '<API-KEY-ID>',",
+            "  signalingAddress: 'https://app.viam.com:443',",
+            "});"
+        ],
+        "description": "Establish a connection to a robot with an address or channel."
+    },
+    "_vcboard": {
+        "prefix": "_vcboard",
+        "body": [
+            "const myBoard = new VIAM.BoardClient(robot, \"my_board\");"
+        ],
+        "description": "Initializes a Board object from a given robot instance."
+    },
+    "_vcservo": {
+        "prefix": "_vcservo",
+        "body": [
+            "const myServo = new VIAM.ServoClient(robot, \"my_servo\");"
+        ],
+        "description": "Initializes a Servo object from a given robot instance"
+    },
+    "_vtmain": {
+        "prefix": "_vtmain",
+        "body": [
+            "import * as VIAM from '@viamrobotics/sdk';",
+            "",
+            "async function main() {",
+            "  const host = '<HOST_ADDRESS>';",
+            "",
+            "  const robot = await VIAM.createRobotClient({",
+            "    host,",
+            "    credential: {",
+            "      type: 'api-key',",
+            "\t // Replace \"<API-KEY>\" (including brackets) with your machine's api key",
+            "      payload: '<API-KEY>',",
+            "    }, ",
+            "\t // Replace \"<API-KEY-ID>\" (including brackets) with your machine's api key id",
+            "    authEntity: '<API-KEY-ID>',",
+            "    signalingAddress: 'https://app.viam.com:443',",
+            "  });",
+            "  ",
+            "  console.log('Resources:');",
+            "  console.log(await robot.resourceNames());",
+            "}",
+            "",
+            "main().catch((error) => {",
+            "  console.error('encountered an error:', error)",
+            "});"
+        ],
+        "description": "Template that establishes a connection to a robot with a main async event loop."
+    },
+    "_vcgantry": {
+        "prefix": "_vcgantry",
+        "body": [
+            "const myGantry = new VIAM.GantryClient(robot, \"my_gantry\");"
+        ],
+        "description": "Initializes a Gantry object from a given robot instance."
+    },
+    "_vcpowersensor": {
+        "prefix": "_vcpowersensor",
+        "body": [
+            "const myPowerSensor = new VIAM.PowerSensorClient(robot, \"my_power_sensor\");"
+        ],
+        "description": "Initializes a Power Sensor object from a given robot instance."
+    },
+    "_vcbase": {
+        "prefix": "_vcbase",
+        "body": [
+            "const myBase = new VIAM.BaseClient(robot, \"my_base\");"
+        ],
+        "description": "Initializes a Base object from a given robot instance."
+    },
+    "_vcmotor": {
+        "prefix": "_vcmotor",
+        "body": [
+            "const myMotor = new VIAM.MotorClient(robot, \"my_motor\");"
+        ],
+        "description": "Initializes a Motor object from a given robot instance."
+    },
+    "_vcarm": {
+        "prefix": "_vcarm",
+        "body": [
+            "const myArm = new VIAM.ArmClient(robot, \"my_arm\");"
+        ],
+        "description": "Initializes an Arm object from a given robot instance."
+    },
+    "_vcgripper": {
+        "prefix": "_vcgripper",
+        "body": [
+            "const myGripper = new VIAM.GripperClient(robot, \"my_gripper\");"
+        ],
+        "description": "Initializes a Gripper object from a given robot instance."
+    },
+    "_vcencoder": {
+        "prefix": "_vcencoder",
+        "body": [
+            "const myEncoder = new VIAM.EncoderClient(robot, \"my_encoder\");"
+        ],
+        "description": "Initializes an Encoder object from a given robot instance."
+    },
+    "_vccamera": {
+        "prefix": "_vccamera",
+        "body": [
+            "const myCamera = new VIAM.CameraClient(robot, \"my_camera\");"
+        ],
+        "description": "Initializes a Camera object from a given robot instance."
+    }
+}
